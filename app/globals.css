@@ -2,32 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.instagram-logo {
+    background-position: 0 -130px;
+    height: 51px;
+    width: 175px;
+    background-image: url(https://bit.ly/3v2LT17);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.facebook-logo {
+    background-position: -414px -259px;
+    background-image: url(https://bit.ly/3v2LT17);
+    height: 16px;
+    width: 16px;
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.apple-store-logo {
+    background-position: -132px -182px;
+    height: 42px;
+    width: 128px;
+    background-image: url(https://bit.ly/3v2LT17);
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.google-store-logo {
+    background-position: 0 -182px;
+    height: 42px;
+    width: 130px;
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png);
 }
